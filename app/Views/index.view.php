@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<a href="/form">Apply for loan</a>
+<a href="/form">Search for loan</a>
 <a href="/partner">For partners</a>
 
 
