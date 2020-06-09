@@ -10,10 +10,10 @@ Autoload Composer
 
 Create Database with 2 tables
 >Database 'altero' with tables 'applications' and 'deals'
->>'applications' columns
+>>'applications' with 3 columns
 >>>id, email, amount
 >
->>'deals' columns
+>>'deals' with 4 columns
 >>>id, application_id, status, partner
 
 Run app 
