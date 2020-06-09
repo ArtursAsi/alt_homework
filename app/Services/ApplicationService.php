@@ -15,8 +15,7 @@ class ApplicationService
     public static function apply(User $user)
     {
 
-        $userId = DB::connect()->select('applications', ['[>]deals' => ['id' => 'application_id']],
-            ['applications.id'], );
+        $userId =  DB::connect()->select('applications',['[>]deals' => ['id'=>'application_id']],['applications.id' ], ['LIMIT' => 1, "ORDER" => ["applications.id" => "DESC"]]);
 
         foreach ($userId as $id) {
             $user->setId($id['id']);

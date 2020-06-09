@@ -1,12 +1,20 @@
 ### Instructions:
 Clone project
->git clone https://github.com/ArtursAsi/ToDoList
+>git clone https://github.com/ArtursAsi/alt_homework
 
 Install Composer
 >composer install
 
 Autoload Composer
 >composer dump-autoload
+
+Create Database with 2 tables
+>Database 'altero' with tables 'applications' and 'deals'
+>>'applications' columns
+>>>id, email, amount
+>
+>>'deals' columns
+>>>id, application_id, status, partner
 
 Run app 
 >php -S localhost:8888
